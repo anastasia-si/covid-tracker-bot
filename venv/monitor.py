@@ -1,6 +1,6 @@
 from lxml import html
 import requests
-import telegram
+import .telegram
 import time
 
 class CovidCaseMonitor:

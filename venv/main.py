@@ -1,4 +1,4 @@
-from monitor import CovidCaseMonitor
+from .monitor import CovidCaseMonitor
 import time
 
 monitor = CovidCaseMonitor()

@@ -2,6 +2,7 @@ from lxml import html
 import requests
 import telegram
 import time
+
 class CovidCaseMonitor:
 
     URL = 'https://www.worldometers.info/coronavirus/country/us/'

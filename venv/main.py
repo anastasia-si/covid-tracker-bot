@@ -5,5 +5,4 @@ import time
 monitor = CovidCaseMonitor()
 while True:
     time.sleep(FREQUENCY_IN_SEC)
-    time_last_checked = time.time()
     monitor.report_total_case_change()

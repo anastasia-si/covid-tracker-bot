@@ -47,7 +47,7 @@ class CovidCaseMonitor:
         self.update_total_cases()
         new_total_cases = self.total_cases
 
-        if new_total_cases >= prev_total_cases + self.PERCENTAGE_CHANGE * prev_total_cases:
+        if True or new_total_cases >= prev_total_cases + self.PERCENTAGE_CHANGE * prev_total_cases:
             message = "Significant increase in the number of positive tests for COVID-19 in {0}.\n" \
                       "The total number of cases: {1}. \n" \
                       "(Previous value: {2}) \n" \

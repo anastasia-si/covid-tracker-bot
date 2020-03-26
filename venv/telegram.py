@@ -1,4 +1,4 @@
-from config import BOT_TOKEN, CHAT_ID
+from .config import BOT_TOKEN, CHAT_ID
 import requests
 
 def bot_send(bot_message):

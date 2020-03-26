@@ -1,5 +1,5 @@
-from .config import FREQUENCY_IN_SEC
-from .monitor import CovidCaseMonitor
+from config import FREQUENCY_IN_SEC
+from monitor import CovidCaseMonitor
 import time
 
 monitor = CovidCaseMonitor()
